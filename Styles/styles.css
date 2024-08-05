@@ -1,0 +1,72 @@
+body{
+    background-color: thistle; 
+    align-items: center; 
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.login-container{
+    width: 400px; 
+    /* display: grid; */
+    background-color:white;
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    /* margin: 50px auto; */
+    top: 25%;
+    left: 30%;
+    position:absolute;
+    translate: (-50px - 50px);
+}
+.login-container .icon{
+    font-size: 100px;
+    color: rgb(163, 110, 212);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: none;
+    
+}
+.login-container .acc{
+    color: rgb(163, 100, 223);
+    font-weight: bold;
+    margin-top:none !important;
+    text-align: centre !important;
+    font-size: 20px;
+    line-height: 1.5em;
+
+}
+.login-container .input-group {
+    position: relative;
+    margin: 10px auto;
+
+}
+.login-container .input-group input{
+    width: 90%;
+    /* border: 2px solid; */
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px ;
+    background-color:thistle;
+    color: rgb(233, 228, 228);
+    border: none;
+}
+.login-container .options{
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin-top: 20px 0;
+
+}
+.login-container .btn{ 
+    background:rgb(121, 74, 165);
+    padding: 10px;
+    position:absolute;
+    /* display: inline-block; */
+    justify-content: center;
+    /* right: 30%; */
+    width: 70%;
+    left: 15%;
+    border-radius: 7px;
+}
